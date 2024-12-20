@@ -1,6 +1,19 @@
 VTK WebAssembly (Conan2 ve Emscripten ile)
 Bu proje, Visualization Toolkit (VTK) kütüphanesini WebAssembly platformunda çalıştırmak için gerekli olan altyapıyı sağlar. Projeniz için bağımlılıkları kurmak ve derlemeyi kolaylaştırmak amacıyla bir run.bat dosyası eklenmiştir.
 
+Not: Bir conan2 profili oluşturun wasm için: 
+```
+[settings]
+os=Emscripten
+arch=wasm
+compiler=clang
+compiler.version=15
+compiler.libcxx=libc++
+build_type=Release
+
+[tool_requires]
+emsdk/3.1.50
+```
 Nasıl Çalıştırılır?
 Depoyu Klonlayın
 
