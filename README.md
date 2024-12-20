@@ -22,8 +22,8 @@ Ortam değişkenlerinden VTK_CONAN_DIR ayarlanmıştır. Bu değişkeni kendi CM
 set(VTK_DIR $ENV{VTK_CONAN_DIR})
 find_package(VTK REQUIRED)
 ```
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------VTK WebAssembly (with Conan2 and Emscripten)
+---
+VTK WebAssembly (with Conan2 and Emscripten)
 This project provides the necessary setup to build and run the Visualization Toolkit (VTK) library on the WebAssembly platform. A run.bat script is included to simplify dependency installation and build steps.
 
 How to Run?
